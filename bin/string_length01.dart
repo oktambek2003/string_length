@@ -5,7 +5,9 @@
         a: string
     Returns:
         length of string */
+import 'package:test/expect.dart';
 
 void main() {
-  // write your code here
+  String S = "oktambel";
+  print(S.length);
 }
