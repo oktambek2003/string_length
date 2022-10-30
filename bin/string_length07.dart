@@ -7,6 +7,17 @@
     Returns:
         string
 */
+String func(String s1, String s2) {
+  int b = s1.length;
+  int c = s2.length;
+  if (b > c) {
+    return s2;
+  } else {
+    return s1;
+  }
+}
+
 void main() {
+  print(func('oktam', 'oktambek'));
   // write your code here
 }
