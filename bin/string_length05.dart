@@ -7,6 +7,13 @@
     Returns:
         total length of strings
 */
-void main() {
-  // write your code here
+
+
+int func(String s1, String s2) {
+  int a = s1.length;
+  int b = s2.length;
+  return a + b;
+}
+void main(){
+  print(func('oktam','lochin'));
 }
