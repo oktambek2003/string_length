@@ -6,6 +6,14 @@
     Returns:
         string
 */
+String func(String a) {
+  int b = a.length;
+  String c = '*';
+  String d = c * b;
+  return d;
+}
+
 void main() {
+  print(func('oktambek'));
   // write your code here
 }
