@@ -12,11 +12,11 @@ bool func(String a) {
   String b = "text";
   int c = b.length;
   bool ans;
-  ans = b == a.length;
+  ans = c == a.length;
   return ans;
 }
 
 void main() {
-  print(func('okta'));
+  print(func('oma0'));
   // write your code here
 }
