@@ -7,6 +7,16 @@
     Returns:
         True or False
 */
+bool func(String a, String b) {
+  int d = a.length;
+  int c = b.length;
+  bool ans;
+  ans = d == c;
+  return ans;
+}
+
 void main() {
-  // write your code here
+  print(func('oktma','lochin'));
+  // write your co
+  //de here
 }
