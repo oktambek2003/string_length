@@ -7,7 +7,12 @@
         length of string */
 import 'package:test/expect.dart';
 
+int func(String a) {
+  
+  return (a.length);
+}
+
 void main() {
-  String S = "oktambel";
-  print(S.length);
+  
+  print(func("afsdffs"));
 }
