@@ -8,15 +8,12 @@
      */
 import 'package:test/test.dart';
 
-String func(String a) {
+bool func(String a) {
   String b = "text";
-  String c = 'True';
-  String h = 'False';
-  if (a.length == b.length) {
-    return c;
-  }  else {
-    return h;
-  }
+  int c = b.length;
+  bool ans;
+  ans = b == a.length;
+  return ans;
 }
 
 void main() {
