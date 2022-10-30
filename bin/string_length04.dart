@@ -8,7 +8,7 @@
 */
 String func(String a) {
   int b = a.length;
-  String c = '*';
+   String c = '*';
   String d = c * b;
   return d;
 }
